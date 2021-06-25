@@ -1,0 +1,865 @@
+@import "vars"
+
+/*==========	Desktop First	==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1241px)
+	.container
+		width: 100%
+		padding: 10px
+	.headerr
+		padding-top: 6px
+		padding-bottom: 6px
+
+	.header__down
+		flex-direction: column
+		align-items: flex-start
+	.header__down-right
+		margin-top: 15px
+	.product__up
+		flex-direction: column
+		align-items: flex-start
+	.product__links
+		margin-top: 15px
+	.product__card
+		margin: 0 10px
+	.slick-list
+		margin-left: 0
+		margin-right: 0
+	.header__scroll-menu
+		flex-direction: column
+	.scroll__left
+		width: 100%
+	.search__scroll
+		width: 100%
+	.scroll__search
+		width: 100%
+	.scroll__category-text
+		white-space: nowrap
+	.scroll__right
+		margin-top: 15px
+		width: 100%
+		display: flex
+		justify-content: space-around
+	.scrollregion__wrap
+		min-width: 429px
+	.headerr__down-left
+		width: 100%
+	.headerr__login-img
+		position: static
+		margin-left: 5px
+	.table
+		display: none
+
+	.exchange__info
+		max-width: 526px
+		width: 100%
+	.exchange__info-title
+		white-space: wrap
+	.exchange__price
+		white-space: wrap
+	.filter__price
+		margin-top: 15px
+	.filter__down-text
+		top: -12px
+	.maker__container
+		flex-wrap: wrap
+	.maker__btn
+		margin-left: 2%
+
+@media only screen and (max-width : 1200px)
+	.product__card
+		margin: 0 50px
+	.header__down-left
+		max-width: 100%
+
+	.search
+		max-width: 100%
+	.analog__item
+		justify-content: space-between
+	.analog__price
+		margin-right: 0
+	.analog__info
+		margin-right: 0
+	.analog__image
+		margin-right: 0
+	.folder__left
+		margin-bottom: 15px
+	.folder__center
+		margin-bottom: 15px
+	.folder__right
+		flex-wrap: wrap
+	.folder__link
+		white-space: nowrap
+		&:nth-child(3)
+			max-width: 274px
+		&:nth-child(4)
+			max-width: 256px
+		&:nth-child(:last-child)
+			max-width: 256px
+	.folder__wrap, .light__wrap, .cable__wrap, .heating__wrap, .shields__wrap, .device__wrap, .tooling__wrap
+		flex-direction: column
+	.catalog__choice
+		flex-direction: column
+	.catalog__choice-left
+		margin-bottom: 20px
+	.catalog__choice-center
+		margin-bottom: 20px
+	.variety__container
+		flex-direction: column
+	.variety
+		padding-top: 15px
+		&__left
+			margin-bottom: 15px
+		&__categories-wrap
+			left: -33px
+	.maker__price
+		margin-right: 0
+	.maker__lot
+		margin-right: 19px
+	.provider-select__box
+		top: 80px
+		left: 8px
+		max-width: 289px
+@media only screen and (max-width : 1090px)
+	.product__card-img
+		width: 196px
+		height: 196px
+	.product__card-title
+		font-size: 12px
+	.product__card-price
+		font-size: 16px
+	.tender__item-link
+		font-size: 11px
+	.header__up
+		flex-direction: column
+	.header__right
+		margin-top: 15px
+	.region__wrap
+		min-width: 401px
+	.region__footer
+		flex-direction: column
+	.region__footer-btn
+		margin-top: 15px
+	.product__card-btn
+		max-width: 168px
+		padding-left: 16px
+		z-index: 99999
+		font-size: 15px
+	.card__btn-text
+		font-size: 12px
+	.filter__up
+		flex-wrap: wrap
+	.catalog__list
+		flex-direction: column
+	.catalog__list-left
+		margin-bottom: 15px
+	.catalog__list-center
+		margin-bottom: 15px
+	.maker__btn
+		margin-top: 0 !important
+@media only screen and (max-width : 1028px)
+	.maker__btn
+		margin-top: 15px !important
+@media only screen and (max-width : 940px)
+	.product__card
+		margin: 0 80px
+	.product__card-img
+		width: 200px
+		height: 200px
+	.product__link
+		font-size: 12px
+		white-space: nowrap
+	.product__title
+		font-size: 20px
+	.product__link:not(:last-child)
+		margin-right: 15px
+	.offers
+		display: none
+	.tender__title
+		font-size: 19px
+	.tender__item
+		flex-basis: 50%
+	.product__hover
+		padding: 13px 14px
+		left: 17px
+	.crate__minmenu-wrap
+		right: -165px
+		&::after
+			right: 242px
+	.headerr__conatainer
+		width: 96%
+	.headerr__logo
+		display: none
+	.headerr__category
+		display: none
+	.logo__headerr
+		display: block
+	.header__minmenu-wrap
+		position: absolute
+		z-index: 999999
+		top: 70px
+		left: 0
+		min-width: 39%
+		background-color: #fff
+	.variety__item
+		flex-wrap: wrap
+	.variety__price
+		margin-right: 17px
+	.variety__info
+		margin-right: 0
+	.variety__left
+		margin-right: 0
+	.analog__info
+		max-width: 390px
+	.analog__item
+		flex-wrap: wrap
+	.analog__price
+		max-width: 124px
+	.analog__info-title
+		min-width: 200px
+		white-space: wrap
+	.maker__container
+		justify-content: initial !important
+	.maker__text
+		max-width: 148px
+		min-width: 148px
+
+@media only screen and (max-width : 855px)
+	.filter__lot
+		margin-top: 15px
+		margin-right: 15px
+@media only screen and (max-width : 836px)
+
+	.product__card
+		max-width: 241px
+		width: 100%
+		margin: 0 58px
+	.general
+		padding-top: 20px
+		padding-bottom: 20px
+	.general__block-wrap
+		justify-content: flex-start
+		flex-direction: column
+		margin-bottom: 20px
+	.general__wrap
+		flex-direction: column
+		align-items: flex-start
+	.general__contact
+		margin-left: 0
+	.general__info
+		margin-left: 0
+		margin-bottom: 20px
+	.list__category-text
+		font-size: 12px
+		white-space: pre-wrap
+	.provaider__list
+		font-size: 12px
+		white-space: nowrap
+	.headerr__nav
+		display: none
+	.tabs__container
+		height: 151px
+	.about-product
+		padding-top: 0
+	.tabs__links
+		flex-direction: column
+		margin-bottom: 40px
+		max-width: 210px
+		min-height: 28px
+		border: none
+	.tabs__link-min
+		display: block
+	.tabs__link
+		padding: 8px 15px
+		font-weight: 600
+		font-size: 13px
+		line-height: 18px
+		border: 2px solid #F3F3F3
+	.tabs__link1
+		max-width: 215px
+	.tabs__link2
+		max-width: 145px
+	.tabs__link3
+		max-width: 186px
+	.about-product__a
+		flex-wrap: wrap
+		justify-content: initial
+		min-height: 68px
+	.about-product__a-text
+		display: flex
+		flex-basis: 10%
+	.analog__info
+		margin-right: 30px
+		width: 100%
+		max-width: 380px
+		margin-right: 0
+	.analog__item
+		justify-content: initial
+		flex-wrap: wrap
+	.analog__image
+		margin-right: 10px
+	.analog__btn
+		margin-top: 20px
+	.variety__btn
+		margin-top: 15px
+
+@media only screen and (max-width : 769px)
+	.filter__up
+		flex-direction: column
+	.filter__pay
+		margin-top: 15px
+	.filter__location
+		margin-top: 15px
+	.filter__price
+		width: 100%
+		&-input
+			max-width: 100%
+			width: 50%
+	.filter__lot
+		margin-right: 0
+	.filter__lot-input
+		max-width: 100%
+		width: 100%
+	.filter__wrap
+		max-width: 100%
+
+	.pay-select__box
+		top: 70px
+		left: 0
+
+		max-width: 100%
+		width: 100%
+	.filter-select__box
+		top: 70px
+		left: 0
+
+		min-width: 100%
+		width: 100%
+	.filter-select-box__input
+		min-width: 100%
+		width: 100%
+	.provider-select__box
+		top: 80px
+		left: 8px
+		width: 98%
+		max-width: 98%
+
+@media only screen and (max-width : 736px)
+	.about-product__title
+		display: none
+	.about-product__media
+		display: block
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 724px)
+	.product__card
+		margin: 0 48px
+	.product__card-img
+		width: 171px
+		height: 171px
+	.product__card-price
+		font-size: 13px
+	.product__card-btn
+		max-width: 168px
+		z-index: 99999
+	.about-product__img
+		width: 200px
+		height: 200px
+
+	.about-product__price
+		font-weight: 800
+		font-size: 15px
+		line-height: 20px
+		color: #262526
+
+	.about-product__price-marker
+		font-size: 12px
+		line-height: 16px
+	.about-product__price-size
+		font-size: 12px
+		line-height: 16px
+	.folder__header
+		flex-direction: column
+		align-items: flex-start
+	.folder__subname
+		margin-top: 10px
+	.catalog__titlee
+		font-size: 21px
+	.catalog__error-image
+		min-height: 200px
+
+@media only screen and (max-width : 678px)
+	.product__card
+		margin: 0 38px
+	.card__btn-text
+		font-size: 15px
+		padding-right: 30px
+	.product__card-btn
+		padding-left: 28px
+@media only screen and (max-width : 641px)
+	.product__card
+		margin: 0 31px
+	.headerr__scroll
+		display: none
+
+	.product__links
+		display: none
+	.crate__minmenu-wrap
+		right: -136px
+	.about-product__a
+		flex-wrap: wrap
+	.analog__price
+		margin-top: 10px
+		width: 100%
+		max-width: 310px
+	.analog__info
+		max-width: 195px
+	.variety__view
+		display: none
+	.variety__all
+		display: none
+	.variety__sort-links
+		flex-wrap: wrap
+@media only screen and (max-width : 586px)
+	.about__wrap-media
+		display: flex
+	.about-product__wrap
+		display: none
+	.about-product__a
+		margin-bottom: 0
+	.filter__up
+		min-height: 318px
+	.analog__header-link
+		display: none
+	.analog__header-title
+		font-size: 18px
+		line-height: 25px
+@media only screen and (max-width : 580px)
+	.product__card-btn
+		max-width: 216px
+	.product__card
+		margin: 0 123px
+		width: 257px
+	.product__card-img
+		width: 200px
+		height: 200px
+	.product__card-title
+		font-size: 14px
+	.slick-list
+		margin-left: 56px
+	.header__logo-text
+		display: none
+	.header__place
+		display: none
+	.header__login
+		display: none
+	.header__up
+		flex-direction: row
+		justify-content: space-between
+		align-items: center
+		margin-bottom: 12px
+	.header__logo
+		max-width: 200px
+		min-height: 15px
+	.header__right
+		min-width: 31%
+	.header__category-text
+		display: none
+	.header__category
+		border: none
+		background: transparent
+		padding: 0
+		max-width: 41px
+	.header__category-burger
+		width: 20px
+		height: 20px
+		margin-left: 0
+	.header__down-right
+		display: none
+	.header__crate-img
+		width: 25px
+		height: 20px
+	.cate__block-price
+		font-size: 12px
+	.crate__block-text
+		line-height: 9px
+		font-size: 9px
+	.tender__title
+		font-size: 19px
+		line-height: 24.51px
+		margin-bottom: 20px
+	.tender__item
+		flex-basis: 100%
+	.tender__item-link
+		display: flex
+		flex-direction: column
+		font-size: 12px
+		flex-wrap: nowrap
+	.product__links
+		display: none
+	.analog
+		padding-top: 0
+
+	.footer__links
+		display: flex
+		flex-direction: column
+	.footer__link
+		margin-bottom: 20px
+		font-size: 12px
+	.footer__wrap
+		flex-direction: column
+		align-items: flex-start
+	.footer__sign
+		margin: 0 auto
+	.tender__item-text
+		flex-direction: column
+	.tender__item-link
+		order: 1
+	.tender__link-point
+		order: 0
+	.header__minmenu-wrap
+		width: 100%
+	.header__minmenu
+		width: 110%
+		left: -26px
+		max-width: 570px
+		top: -100px
+	.mimnmenu-header
+		display: block
+	.minmenu__up::after
+		width: 106%
+	.minmenu__down::after
+		width: 106%
+
+	.crateminmenu-active
+		display: none
+	.about-product__media
+		font-weight: 800
+		font-size: 18px
+		line-height: 25px
+
+	.about-product__price
+		margin-bottom: 30px
+	.about-product__tlp
+		margin-top: 15px
+	.about-product__a
+		margin-top: 15px
+	.about-product__coil
+		margin-top: 15px
+	.analog__item
+		justify-content: initial
+		align-items: flex-start
+	.minmenu__center::after
+		min-width: 106%
+	.tabs__buttons
+		flex-direction: column
+
+	.variety__info
+		max-width:
+		overflow: inherit
+		&-title
+			min-width: 191px
+@media only screen and (max-width : 568px)
+	.product__card
+		margin: 0 89px
+
+	.further
+		padding-bottom: 20px
+	.catalog__search
+		margin-top: 15px
+		flex-direction: column
+		align-items: flex-start
+	.catalog__search-right
+		margin-top: 10px
+		margin-left: 0
+	.maker__btn
+		width: 100%
+		text-align: center
+	.maker__text
+		margin-bottom: 15px
+
+@media only screen and (max-width : 518px)
+	.product__card
+		margin: 0 60px
+	.folder__title
+		font-size: 18px
+		line-height: 25px
+	.folder__name-title
+		font-size: 15px
+		line-height: 20px
+
+@media only screen and (max-width : 494px)
+	.product__card
+		margin: 0px 41px
+	.header__minmenu
+		width: 113%
+		left: -26px
+		max-width: 572px
+	.about-product__a
+		margin-bottom: 32px
+	.variety__info
+		max-width: 211px
+	.catalog__title
+		font-size: 18px
+		line-height: 25px
+	.maker__address-text
+		min-width: 136px
+		max-width: 136px
+@media only screen and (max-width : 456px)
+	.slick-list
+		margin-left: 45px
+	.scroll__right
+		display: none
+	.header__minmenu
+		top: -62px
+	.about-product__img
+		width: 80px
+		height: 70px
+		margin-right: 15px
+	.filter__wrap
+		min-width: 100%
+	.filter__location-input
+		width: 100%
+	.filter__lot-input
+		width: 100%
+	.filter__inputs
+		flex-wrap: wrap
+		max-width: 100%
+	.filter__pay-input
+		width: 100%
+	.filter__price-input
+		min-width: 50%
+	.filter__button
+		margin-top: 10px
+		width: 100%
+		text-align: center
+	.filter__up
+		order: 2
+	.filter__down
+		order: 1
+		margin-bottom: 15px
+	.filter__media
+		display: flex
+	.filter__up
+		display: flex
+		&-active
+			display: none
+	.table
+		display: none
+	.catalog__choice
+		display: none
+	.catalog__name
+		display: none
+	.catalog__link
+		display: none
+	.catalog__list
+		display: none
+	.catalog
+		padding-top: 15px
+	.list__button
+		display: none
+	.catalog__container
+		margin-top: 5px
+		margin-bottom: 10px
+	.catalog__title
+		margin-top: 5px
+		margin-bottom: 5px
+	.variety__left
+		background-color: #f3f3f3
+		padding: 10px
+	.variety__left-search
+		min-width: 100%
+	.variety__left-look
+		min-width: 50%
+	.variety__left-lookk
+		min-width: 50%
+	.catalog__subtitle
+		margin-bottom: 0
+		font-size: 18px
+	.catalog__titlee
+		font-size: 11px
+		line-height: 20px
+		margin-bottom: 15px
+	.lable__text
+		font-size: 12px
+	.list
+		padding: 22px 0 7px 4px
+	.filter__third-region
+		padding-left: 13px
+	.filter__fourth-reg
+		padding-left: 37px
+	.provider-select__box
+		top: 155px
+		width: 96%
+		max-width: 96%
+@media only screen and (max-width : 412px)
+	.slick-list
+		margin-left: 8px
+	.header__minmenu-link
+		font-size: 12px
+	.product__hover
+		padding: 13px 14px
+		left: 27px
+	.crate__text-point
+		display: none
+	.header__crate-img
+		width: 18px
+		height: 20px
+	.cate__block-price
+		font-size: 10px
+	.header__right
+		min-width: 20%
+
+	.header__logo
+		margin-right: 0
+		max-width: 153px
+	.crate__block-text
+		line-height: 5px
+	.header__logo-link
+		margin-top: 0
+	.header__right
+		margin-top: 0
+	.header
+		padding-top: 16px
+		padding-bottom: 17px
+		border-bottom: 2px solid #f3f3f3
+	.minmenu__center::after
+		width: 113%
+	.minmenu__down::after
+		width: 109%
+	.minmenu__up::after
+		width: 109%
+	.supplier-txt__title
+		font-weight: 800
+		font-size: 18px
+		line-height: 25px
+	.filter__up
+		flex-wrap: wrap
+	.filter__price
+		flex-wrap: wrap
+	.filter__price-input
+		flex-basis: 100%
+	.variety__btn
+		margin: 15px auto 0
+	.variety__btn-marker
+		padding: 10px 9px
+	.variety__image
+		margin-right: 6px
+	.variety__info
+		max-width: 190px
+	.variety__item
+		padding: 10px
+	.catalog__titlee
+		font-size: 14px
+
+@media only screen and (max-width : 374px)
+	.product__card
+		margin: 0 29px
+	.header__scroll-menu
+		display: none
+	.header__minmenu
+		width: 115%
+	.analog__item
+		padding: 16px 9px 7px 7px
+	.property__right
+		margin-top: 15px
+	.property
+		padding: 0
+
+@media only screen and (max-width : 352px)
+	.slick-list
+		margin-left: -19px
+	.header__logo
+		width: 156px
+	.header__search
+		padding: 10px 0 10px 6px
+		font-size: 10px
+	.tender
+		padding-top: 15px
+	.header
+		padding-bottom: 15px
+	.cate__block-price
+		font-size: 10px
+	.about-product__coil
+		max-width: 305px
+	.header__minmenu-wrap
+		overflow: hidden
+		position: absolute
+		z-index: 999999
+		top: 0
+		left: -5px
+		width: 100%
+		background-color: #fff
+	.pay-select__box
+		left: 0
+	.folder__btn
+		min-width: 100%
+		text-align: center
+	.keep__btn
+		min-width: 100%
+		text-align: center
+	.catalog__error-image
+		width: 338px
+	.maker__lot
+		margin-right: 60px
+@media only screen and (max-width : 325px)
+	.header__minmenu
+		width: 117%
+	.analog__info
+		max-width: 189px
+	.analog__btn
+		margin: 10px auto 0
+	.analog__button
+		min-width: 100%
+		text-align: center
+	.maker__payment
+		margin-right: 10px
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	.product__card
+		margin: 0px 30px
+	.product__card-img
+		width: 200px
+		height: 200px
+	.slick-list
+		margin-left: -6px
+	.product__card-title
+		font-size: 10px
+	.card__btn-text
+		font-size: 14px
+	.product__card-btn
+		padding-left: 20px
+	.analog
+		padding-top: 0
+	.about-product__tlp-text
+		width: 66px
+		text-align: center
+	.about-product__coil
+		justify-content: initial
+	.about-product__coil-text
+		width: 58px
+	.filter__down-text
+		top: -6px
+		right: 19px
+
+/*==========	Mobile First	==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
